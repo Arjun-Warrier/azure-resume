@@ -5,7 +5,7 @@ on:
   push:
       branches: [ main ]
       paths:
-      - 'backend/**'
+      - "backend/**"
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'func-azureresume-arjun'   # set this to your function app name on Azure
@@ -46,7 +46,7 @@ jobs:
       id: fa
       with:
         app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
-        package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
+        package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/api/output'
        # publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }} # Remove publish-profile to use Azure RBAC
         sku: flexconsumption
         remote-build: false
