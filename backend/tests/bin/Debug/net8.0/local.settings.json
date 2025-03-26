@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_INPROC_NET8_ENABLED": "1",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureResumeConnectionString": "AccountEndpoint=https://cosmosdb-azure-resume-challenge.documents.azure.com:443/;AccountKey=8fhoErwg8SkRxeauHOqbrks8tDScRMym2moMHC1IuVqy2fOMXU6ottjDMN1ROgh4zAfvDMOal5wlACDb8HfGlQ==;"
+  },
+  "Host" :{
+    "CORS":"*"
+  }
+}
