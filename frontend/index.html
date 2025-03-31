@@ -1,306 +1,299 @@
+
+
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>My Portfolio</title>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Arjun's Resume</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>x
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--- devicon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 
-   <!-- Script
-   ================================================== -->
-   <script src="js/modernizr.js"></script>
-   <script src="main.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+  <!-- CSS (includes Bootstrap), you can also add bootstrap by cdn like JS is added at bottom-->
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="page-top">
+  <!-- Navbar (appears at top of your webpage)-->
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <input onclick="make_me_dark()" type="checkbox" class="toggle" checked>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">ARJUN WARRIER</span>
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile roundedx`-circle mx-auto mb-2" src="sources/my_img.jpg" alt="" /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+      </ul>
+    </div>
+  </nav>
 
-      <nav id="nav-wrap">
+  <!-- Content-->
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+  <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <h1 class="mb-0 text-center">
+          <span class="text-primary">Arjun</span>
+          Warrier
+        </h1>
+        <div class="subheading mb-5 text-center">
+          Banglore India, +91 83300 17042
+          <a href="mailto:arjunwarrier166@gmail.com">arjunwarrier166@gmail.com</a>
+        </div>
+        <img class="top-img " src="sources/my_website1.svg" alt="">
+        <p class="lead mb-5"><p>Welcome to my website! I'm a <span class="highlight">Cloud Engineer</span> with over three years of experience in designing, deploying, and managing cloud solutions.</p>
+        
+        <p>My expertise spans across <span class="highlight">Microsoft Azure, Terraform, Databricks, Snowflake, Python, and Bash scripting</span>, enabling me to build scalable, efficient, and secure cloud infrastructures.</p>
+        
+        <p>As a <span class="highlight">Microsoft Certified Azure Administrator</span>, I have hands-on experience in cloud automation, infrastructure as code, and optimizing cloud environments for performance and cost efficiency.</p>
+        
+        <p>I am passionate about leveraging cloud technologies to drive innovation and solve complex business challenges.</p>
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Thsis is testing again....</h1>
-            
-            <p>and this page has been viewed <a id="counter"></a> times :) </p> 
-            <ul class="social">
-               <li><a href="https://twitter.com/madebygps"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://madebygps.com"><i class="fa fa-external-link"></i></a></li>
-               <li><a href="https://linkedin.com/in/gwyneth-pena"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://instagram.com/madebygps"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://youtube.com/madebygps"><i class="fa fa-youtube"></i></a></li>
-               <li><a href="https://github.com/madebygps/cgc-azure-resume"><i class="fa fa-github"></i></a></li>
-            </ul>
-         </div>
+        <p>On this site, you’ll find insights, technical blogs, and resources based on my experience in cloud engineering. Whether you're looking for best practices, tutorials, or simply want to connect, feel free to reach out!</p>
+        
+        <p><strong>Let’s build the future of cloud together!</strong></p></p>
+        <div class="social-icons">
+          <a target="_blank" class="social-icon" href="https://www.linkedin.com/in/arjun-warrier-p/"><i class="fab fa-linkedin-in"></i></a>
+          <a target="_blank" class="social-icon" href="https://github.com/Arjun-Warrier/"><i class="fab fa-github"></i></a>
+          <a target="_blank" class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+          <a target="_blank" class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
       </div>
+      <div class="text-center mt-4">
+        <h3>Website Visits</h3>
+        <a id="counter"></a>
+      </div>  
+    </section>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/me.png" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>ABOUT ME</h2>
-
-            <p> Hi, I'm Gwyneth Pena-Siguenza, <span>Training Architect at <a href="https://acloud.guru">A Cloud Guru</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">Azure MVP</a></span>
-               and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning more accessible and less daunting for everyone. 
-               
-         </br>
-      </br>
-       I built this page as part of the <span><a href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru Azure Resume Challenge.</a></span>
-            
-
-         </div> <!-- end .main-col -->
-
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Experience</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Packaged Application Developement Associate/Analyst</h3>
+            <div class="subheading mb-3">Accenture, Azure Data platform L2 Support</div>
+            <ul>
+              <li><span class="highlight">Cloud Automation and Efficiency:</span> Developed cloud automation using Python and serverless functions (Azure Web App) to automate daily tasks, reducing manual effort and increasing efficiency.</li>
+              
+              <li><span class="highlight">Infrastructure as Code (IaC):</span> Optimized enterprise-scale Azure infrastructure using Terraform and Azure Pipelines. Implemented automated drift detection, state management in Azure Storage Account and Blob Container, and reusable modules that reduced setup time by 70%. Integrated automated approval workflows for governance and ensured 100% infrastructure consistency through compliance checks and version control best practices.</li>
+              
+              <li><span class="highlight">CI/CD Automation:</span> Implemented scalable CI/CD pipelines using Azure DevOps and pipelines, wrote Python tests to ensure code quality.</li>
+              
+              <li><span class="highlight">Cloud Architecture & Strategy:</span> Played a key role in designing and implementing Azure architecture, driving a 35% reduction in cloud spend through cost optimizations while enhancing scalability and security. Mentored fellow engineers, following the Microsoft Cloud Adoption Framework.</li>
+              
+              <li><span class="highlight">Solutions Integration:</span> Integrated various solutions with cloud architecture for observability and cost monitoring.</li>
+              
+              <li><span class="highlight">Synapse to Snowflake Migration:</span> Migrated databases from Azure Synapse Analytics to Snowflake, ensuring a smooth migration with minimal user impact.</li>
+              
+              <li><span class="highlight">Databricks HMS to Unity Catalog Migration:</span> Migrated Databricks databases from the legacy Hive Metastore architecture to Unity Catalog, ensuring a seamless transition.</li>
+              
+              <li><span class="highlight">Data Sharing:</span> Created data shares in both Databricks and Snowflake to facilitate data sharing with internal and external teams.</li>
+              
+              <li><span class="highlight">Security Best Practices:</span> Followed security best practices, including implementing password policies, ensuring proper rotation of passwords and service principal secrets, and enforcing RBAC policies and Azure policies.</li>
+              
+              <li><span class="highlight">Vulnerability Management in VMs and Serverless:</span> Monitored VMs and serverless environments for vulnerabilities and took necessary actions when issues were found.</li>
+              
+              <li><span class="highlight">Client Engagement:</span> Engaged with clients to understand their requirements and helped them achieve optimized costs, enhanced performance, and improved scalability while ensuring alignment with business objectives.</li>
+              
+              <li><span class="highlight">Cross-Functional Collaboration:</span> Collaborated with cross-functional teams to integrate cloud automation and DevOps solutions in Azure, Databricks, and Snowflake, optimizing resource provisioning and contributing to a high-performance platform.</li>
+          </ul>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">September 2021 - December 2023 - Present</span></div>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Education</h2>
+        <img class="edu-img " src="sources/education.svg" alt="">
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">A P J Abdul Kalam Techbological Unioversity , Thiruvanthapuram </h3>
+            <div class="subheading mb-3">Bachelor of Technology</div>
+            <div>Computer Science & Engineering</div>
+            <p>7.56 CGPA</p>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">August 2017 - June 2021</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Kerala State Board of Higher Secondary Education</h3>
+            <div class="subheading mb-3">Higher Secondary</div>
+            <p>89%</p>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">August 2015 - March 2017</span></div>
+        </div>
       </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Certifications</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>AWS Certified Developer Associate</h3>
-                  <p class="info"><em class="date">March 2018</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Azure Fundamentals AZ900</h3>
-                  <p class="info"><em class="date">July 2020</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>LPI Linux Essentials</h3>
-                  <p class="info"><em class="date">February 2021</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>A Cloud Guru</h3>
-                  <p class="info">Associate Community Training Architect <span>&bull;</span> <em class="date">November 2020 - Present</em></p>
-
-                  <p>
-                  <li>Creating awesome cloud computing content.</li> 
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Powwr | A Cognitive Energy Company</h3>
-                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">May 2019 - August 2020</em></p>
-
-                  <p>
-                     <li>Developed cloud native solutions in Azure</li>
-                     <li>CI/CD with Azure DevOps</li>
-                     <li>Full stack .NET development</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Powwr | A Cognitive Energy Company</h3>
-                  <p class="info">System Administrator <span>&bull;</span> <em class="date">September 2018 - May 2019</em></p>
-
-                  <p>
-                  <li>Atlassian suite administration</li>
-                  <li>O365 suite administration</li>
-                  <li>SQL server 2019 administration</li>
-                  <li>Azure infrastructure administration</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Tech Boston</h3>
-                  <p class="info">Help Desk Analyst <span>&bull;</span> <em class="date">October 2016 - August 2018</em></p>
-
-                  <p>
-                  <li>Front line help desk IT support</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Apple Danbury</h3>
-                  <p class="info">Mobile tech <span>&bull;</span> <em class="date">December 2014 - August 2016</em></p>
-
-                  <p>
-                  <li>Repaired software and hardware issues related to iOS devices</li>
-                  
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://twitter.com/madebygps"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://linkedin.com/in/gwyneth-pena"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://madebygps.com"><i class="fa fa-external-link"></i></a></li>
-               <li><a href="https://instagram.com/madebygps"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://youtube.com/madebygps"><i class="fa fa-youtube"></i></a></li>
-               <li><a href="https://github.com/madebygps/cgc-azure-resume"><i class="fa fa-github"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <a href="https://www.styleshout.com/free-templates/ceevee/"> Template by CeeVee </a>
-                
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Skills</h2>
+        <div class="subheading mb-3">Programming Languages & Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftazure.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/terraform.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/snowflake.svg" width="40" alt=""></img></li> 
+          <li class="list-inline-item"><i><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/databricks.svg" width="40" alt=""></img></i></li>  
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" width="40" alt=""></img></li>  
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linux.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/html5.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/css.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/javascript.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/csharp.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecloud.svg" width="40" alt=""></img></li>
+          <li class="list-inline-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/postgresql.svg" width="40" alt=""></img></li>
+        </ul>
+        <div class="subheading mb-3">Key Points</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Cloud Platforms: Microsoft Azure, Google Cloud Platform 
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Scripting Languages: Python, Bash
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            CICD Tools: Azure DevOps, Pipelines
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            IAC Tools: Terraform, Azure Bicep
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Database: PostgreSQL, Azure SQL
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Database Analytics tools: Snowflake, Databricks, Azure Synapse Analytics
+          </li>
+        </ul>
       </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Interests-->
+    <section class="resume-section" id="projects">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Projects</h2>
+        <h3 class="mb-0">Cloud Resume Challenge</h3>
+        <p>The goal of the project was to develope a resume online . Details of the can be found <a href = "https://cloudresumechallenge.dev/docs/the-challenge/azure/">here</a>.
+            Decided to take this challenge to boost my azure cloud skills. Working on this project was a greate experince faced many challenges and obstacles was able to tacle all and complete the project.
+            This include a lot of learning was able to explore multiple tech skills and able to gain knowledge in those. </p>
+        <p class="mb-0">The objective of the project was to create an online resume with an counter to show the vistors count. The website was built using HTML, CSS and javascript. Utilized azure CosmosDB for 
+          the counter purpose and azure function in C# to craete the API to fetch the result from CosmosDB. Deployed the Website using Azure static website and used azure CDN to map to custom domain. Written tests to ensure the 
+        code quality and used github actions for CICD. The entire azure infrastruture was deployed using Terraform thus implementing IaC. </p>
+        <div class="row project-cards mx-auto align-items-center">
+          <div class="col-md-4 mb-4 mx-auto">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Cloud Resume Challenge</h5>
+                <p class="card-text">See my attempt at Cloud resuem challenge below</p>
+                <a href="https://github.com/MicrosoftAZLabs/Cloud-Resume-Challenge" class="btn btn-primary">github</a>
+                <a href="https://www.arjun-warrier.in/" class="btn btn-primary">Site</a> 
+              </div>
+            </div>
+          </div>
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Awards-->
+    <section class="resume-section" id="awards">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Awards & Certifications</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                AZ-104
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+               AZ-900
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                DP-900
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+               SC-900
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+               PL-900
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+               Github Foundations
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="awards-img " src="sources/certificate1.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
-   </footer> <!-- Footer End-->
+    <!-- my new tab -->
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
 
+    <!-- copyrights -->
+
+    <section class="">
+      <hr>
+      <div class="text-center">
+        <p>Made by <a href="https://hitik20.tech/">Hitik</a>, <a href="https://mozillachandigarh.tech/">Mozilla Chandigarh</a> </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bootstrap core JS-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
